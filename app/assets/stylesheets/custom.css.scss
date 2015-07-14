@@ -78,7 +78,7 @@ p {
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
-  font-style: bold;
+  //font-weight: bold;
   &:hover {
     color: #B00100;
   }
@@ -186,4 +186,18 @@ input {
   .form-control {
     color: $state-danger-text
   }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
